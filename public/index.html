@@ -3,12 +3,28 @@
   <head>
     <meta charset='utf-8'>
     <title>Learn JS!</title>
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- INCLUDE EXTERNAL CSS LIBRARIES -->
+    <!-- Include 'Normalize CSS reset' library which ensures that base style is the same across all browsers -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css'>
+    <!-- Include 'Skeleton' library, a responsive CSS boilerplate (responsive grid, CSS utilities for style and layout) -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+
+    <!-- INCLUDE EXTERNAL JAVASCRIPT FILES -->
+    <!-- Include 'jQuery' library -->
     <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+
+    <!-- INCLUDE INTERNAL JAVASCRIPT FILES -->
+    <!-- Includes libraries that are either customized to our app or aren’t popular enough to be available on a content delivery network“ -->
     <script src='/vendor.js'></script>
+    <!-- Contains the application logic -->
     <script src='/app.js'></script>
+
+    <!-- INCLUDE FONTS -->
+    <!-- Include Skeleton library's default font 'Raleway', served via Google Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- INLINE CSS STYLES FOR OUR APPLICATION (MAY BE MOVED TO A SEPARATE FILE -->
     <style type="text/css" media="all">
       body { margin-top: 30px; }
     </style>
